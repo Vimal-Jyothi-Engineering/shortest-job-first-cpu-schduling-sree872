@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: Test 1
         setup-command: ''
-        command: make test
+        command: gcc sjf.c -o sjf && ./sjf
         input: |-
           4
           P1 0 6
@@ -48,7 +48,7 @@ jobs:
       with:
         test-name: Test 2
         setup-command: ''
-        command: make test
+        command: gcc sjf.c -o sjf && ./sjf
         input: |-
           3
           P1 0 5
@@ -74,7 +74,7 @@ jobs:
       with:
         test-name: Test 3
         setup-command: ''
-        command: make test
+        command: gcc sjf.c -o sjf && ./sjf
         input: |-
           4
           P1 0 4
@@ -103,7 +103,7 @@ jobs:
       with:
         test-name: Test 4
         setup-command: ''
-        command: make test
+        command: gcc sjf.c -o sjf && ./sjf
         input: |-
           3
           P1 2 4
@@ -129,7 +129,7 @@ jobs:
       with:
         test-name: Test 5
         setup-command: ''
-        command: make test
+        command: gcc sjf.c -o sjf && ./sjf
         input: |-
           5
           P1 0 3
