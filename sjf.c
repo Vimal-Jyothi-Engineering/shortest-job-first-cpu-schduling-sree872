@@ -40,7 +40,8 @@ int main() {
             p[idx].wt = p[idx].tat - p[idx].bt;
             p[idx].done = 1;
             completed++;
-        } else {
+        } 
+        else {
             time++;
         }
     }
